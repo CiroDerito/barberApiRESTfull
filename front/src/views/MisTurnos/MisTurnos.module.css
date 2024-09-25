@@ -1,0 +1,54 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5%;
+  width: 80%;
+  background: #f8f8f86c;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #3f3b3b;
+  font-style: oblique;
+  margin-bottom: 10px;
+  text-align: left;
+  margin: 10px 10%;
+
+}
+
+.tableTitle {
+  display: grid;
+  grid-template-columns: 2.2fr 6fr 5.6fr 4fr 10fr;
+  height: 20px;
+  width: 82%;
+  background-color: #ece8e8;
+  color: #1b1b1b;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #1b1b1b;
+  margin: 0 auto;
+  flex-wrap: nowrap;
+}
+
+.tableTitle div {
+  text-align: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.tableTitle div:first-child {
+  text-align: left;
+  
+}
+
+.turnosList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}

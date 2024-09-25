@@ -1,0 +1,67 @@
+
+.errorContainer {
+    display: flex;
+    color: #ffffff9a;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url(../../../public/errorPageBG.jpg);
+    background-size: cover; 
+    background-position: center; 
+}
+
+.title {
+    margin-top: 10%; 
+    font-family: "Permanent Marker", cursive;
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 14em;
+    padding: 0;
+    -webkit-animation: pulse 1s infinite;
+    animation: pulse 1s infinite;
+}
+
+.description {
+    font-size: 2em;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 0em; 
+}
+
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}

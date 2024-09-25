@@ -1,0 +1,51 @@
+.container {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    width: auto; 
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.2)
+    ), url(https://barberiacapital.mx/cdn/shop/articles/Barberia_2018_Monterrey_003.jpg?v=1672800428&width=2048);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+.image {
+    width: 500px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+.text {
+    font-family: "Nerko One", cursive;
+    font-size: 40px;
+    color: #414040;
+    margin: 0;
+    animation: pulse 1s infinite;
+}
+
+p.text {
+    font-size: 20px;
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
